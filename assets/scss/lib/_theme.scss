@@ -1,0 +1,48 @@
+// This is the theme sass file for use when the codebase is shared
+// to other councils. Pop your own override variables in here.
+
+// Make sure we use our link colour for links.
+.page a {
+  color: $color-link !important;
+}
+
+// Make sure the button colour is white.
+.link-button,
+.cta-action {
+  color: $color-text-negative !important;
+  span,
+  &:after {
+    color: $color-text-negative !important;
+  }
+}
+
+// Make sure our linked headers use the link color.
+main {
+  h1 a,
+  h2 a,
+  h3 a,
+  h4 a,
+  h5 a,
+  h6 a {
+    color: $color-link;
+    text-decoration: underline;
+
+    &:visited {
+      color: $color-link;
+
+      &:hover {
+        color: $color-link;
+      }
+    }
+  }
+}
+
+// Make the service update box the correct colour.
+.servicehub--update {
+  background-color: $color-box-alt;
+}
+
+// Make the contact container the correct green.
+.servicehub--contact .contact-container {
+  border-color: $color-success;
+}
