@@ -1,8 +1,3 @@
-# Localgov Theme - BHCC style
-
-An approximation of the BHCC theme ported to Localgov Theme.
-__For demo purposes only__
-
 # Sass Style Guide
 
 This is a coding standard guide to encourage consistency between developers in this repository. Please take a common sense approach to modifying the sass, adopting a style of `code what you see` rather than doing your own thing. Our coding standards are inline with those set for Drupal and Bootstrap 4.
