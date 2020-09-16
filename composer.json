@@ -1,0 +1,10 @@
+{
+    "name": "localgovdrupal/localgov_theme_bhcc",
+    "description": "Localgov Theme for BHCC - Based on localgov_theme",
+    "type": "drupal-theme",
+    "homepage": "https://github.com/localgovdrupal/localgov_theme_bhcc",
+    "license": "GPL-2.0-or-later",
+    "require": {
+        "localgovdrupal/localgov_theme": "dev-master",
+    }
+}
