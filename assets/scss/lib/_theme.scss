@@ -1,6 +1,11 @@
 // This is the theme sass file for use when the codebase is shared
 // to other councils. Pop your own override variables in here.
 
+// Fix the brand to a max height.
+.navbar-brand img {
+  max-height: 76px;
+}
+
 // Make sure our linked headers use the link color.
 main {
   h1 a,
