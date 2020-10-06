@@ -22,6 +22,19 @@ main {
   }
 }
 
+// Fix headers when next to an icon.
+svg {
+  + h1,
+  + h2,
+  + h3,
+  + h4,
+  + h5,
+  + h6 {
+    display: inline-block;
+    width: auto;
+  }
+}
+
 // Make the service update box the correct colour.
 .servicehub--update {
   background-color: $color-box-alt;

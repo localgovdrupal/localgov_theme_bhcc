@@ -15676,6 +15676,16 @@ main h6 a:visited:hover {
   color: #0059A4;
 }
 
+svg + h1,
+svg + h2,
+svg + h3,
+svg + h4,
+svg + h5,
+svg + h6 {
+  display: inline-block;
+  width: auto;
+}
+
 .servicehub--update {
   background-color: #f0f5fa;
 }
