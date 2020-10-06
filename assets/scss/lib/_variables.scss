@@ -85,7 +85,8 @@ $breadcrumb: $gray-tertiary;
 $focus: $highlight;
 
 // Link colours
-$link-hover-color: $blue;
+$link-color: $primary;
+$link-hover-color: $secondary;
 
 // Background colours
 $body-bg: $white;
@@ -146,9 +147,9 @@ $accordion-background-highlight: $blue;
 
 $skip-main: $primary;
 
-$campaign-header: $blue;
+$campaign-header: $white;
 
-$section-nav-background: $blue;
+$section-nav-background: $indigo;
 
 //STANDARD BUTTONS
 $input-btn-padding-y: .5rem; //8px
@@ -169,12 +170,25 @@ $input-btn-font-size-lg: 1.375rem; //22px
 $input-btn-line-height-lg: 1.5; //10px
 
 $button-icons: $yellow;
+
+$link-button: $primary;
+$link-button-text: $white;
+$link-button-text-focus: $carbon;
+
 $link-button-primary: $green;
 $link-button-primary-focus: $teal;
+$link-button-primary-text: $carbon;
+$link-button-primary-text-focus: $white;
+
 $link-button-secondary: $blue;
 $link-button-secondary-focus: $cyan;
+$link-button-secondary-text: $carbon;
+$link-button-secondary-text-focus: $white;
+
 $link-button-tertiary: $orange;
 $link-button-tertiary-focus: $yellow;
+$link-button-tertiary-text: $white;
+$link-button-tertiary-text-focus: $carbon;
 
 // Hide default input focus
 $input-btn-focus-width: 0;
@@ -242,7 +256,6 @@ $alert-link-font-weight: $font-bold;
 $alert-font-weight: $font-bold;
 
 //Jumbotron
-$jumbo-welcome: 'Welcome to';
 $jumbo-font-regular: $font-size-base * 2.625; // ~42px ~2.625rem
 $jumbo-font-large: $font-size-base * 3.25; // ~52px ~3.25rem
 
@@ -281,6 +294,7 @@ $fa-search: '\f002';
 $fa-info-circle: '\f05a'; 
 $fa-plus: '\f067';
 $fa-minus: '\f068';
+$fa-arrow-up: '\f30c';
 
 // Alert Icons
 $alert-success: $fa-check;

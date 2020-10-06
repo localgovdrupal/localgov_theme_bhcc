@@ -6,8 +6,6 @@
 \*-------------------------------------------*/
 
 // Import council theme settings
-// @import 'theme'; // replace with '_variables-REPLACEWITHYOURCOUNCILNAME'
-
 
 // Functions
 @import 'functions';
@@ -24,8 +22,8 @@
 @import '../../../node_modules/bootstrap/scss/mixins';
 @import '../../../node_modules/bootstrap/scss/variables';
 
+@import 'variables';
 @import 'variables-BHCC';
-// @import 'variables';
 
 // Optional
 @import '../../../node_modules/bootstrap/scss/alert';
@@ -85,7 +83,6 @@
 @import 'partials/guides';
 @import 'partials/header';
 @import 'partials/iconlist';
-@import 'partials/jumbotron';
 @import 'partials/links';
 @import 'partials/main';
 @import 'partials/map-overlay';
@@ -102,5 +99,4 @@
 @import 'partials/stepbystep';
 @import 'partials/tables';
 
-// BHCC theme
-@import 'theme';
+@import 'theme'; // replace with '_variables-REPLACEWITHYOURCOUNCILNAME'

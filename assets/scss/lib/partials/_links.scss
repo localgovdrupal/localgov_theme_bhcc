@@ -1,13 +1,16 @@
 // Accessible links
 
 a {
-  color: $primary;
+  color: $link-color;
   text-decoration: underline;
   font-weight: $font-bold;
 
   &:hover,
   &:focus {
-    @extend .access-background;
+    background-color: $focus;
+    color: $link-hover-color;
+    text-decoration: none;
+    box-shadow: 0 0 0 0.125rem $focus;
 
     > img {
       @include outline(.1875rem, 0, $focus);
@@ -97,7 +100,10 @@ button.action-link {
     &:hover,
     &:focus {
       outline: none !important;
-      @extend .access-background;
+      background-color: $focus;
+      color: $link-hover-color;
+      text-decoration: none;
+      box-shadow: 0 0 0 0.125rem $focus;
 
       i {
         color: $secondary;
@@ -189,5 +195,24 @@ button.action-link {
 
   h2 {
     font-size: $h3-font-size;
+  }
+}
+
+.focus-top {
+  &:before {
+    font-family: $font-family-icons;
+    content: $fa-arrow-up;
+    font-weight: $fa-font-weight;
+    display: inline-block; // inline-block prevents icon from wrapping to newline and removes erroneous underline
+    @include rem(padding-left, 5);
+    color: $green;
+  }
+}
+
+a#main-content { // prevent hover colour on 'focus top' anchor
+  &:hover,
+  &:focus {
+    background: none;
+    box-shadow: none;
   }
 }

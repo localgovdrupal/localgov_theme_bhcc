@@ -1,21 +1,6 @@
 // This is the theme sass file for use when the codebase is shared
 // to other councils. Pop your own override variables in here.
 
-// Make sure we use our link colour for links.
-.page a {
-  color: $color-link !important;
-}
-
-// Make sure the button colour is white.
-.link-button,
-.cta-action {
-  color: $color-text-negative !important;
-  span,
-  &:after {
-    color: $color-text-negative !important;
-  }
-}
-
 // Make sure our linked headers use the link color.
 main {
   h1 a,

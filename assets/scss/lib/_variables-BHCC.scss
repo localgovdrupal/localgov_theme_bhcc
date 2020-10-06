@@ -141,7 +141,8 @@ $breadcrumb: $gray-tertiary;
 $focus: $color-highlight;
 
 // Link colours
-$link-hover-color: $blue;
+$link-color: $color-link;
+$link-hover-color: $color-link-hover;
 
 // Background colours
 $body-bg: $white;
@@ -227,10 +228,18 @@ $input-btn-line-height-lg: 1.5; //10px
 $button-icons: $white;
 $link-button-primary: $color-link;
 $link-button-primary-focus: $color-link-dark;
+$link-button-primary-text: $color-text-negative;
+$link-button-primary-text-focus: $color-text-negative;
+
 $link-button-secondary: $color-success;
 $link-button-secondary-focus: $color-success-dark;
+$link-button-secondary-text: $color-text-negative;
+$link-button-secondary-text-focus: $color-text-negative;
+
 $link-button-tertiary: $color-accent1;
 $link-button-tertiary-focus: $color-accent1-dark;
+$link-button-tertiary-text: $color-text-negative;
+$link-button-tertiary-text-focus: $color-text-negative;
 
 // Hide default input focus
 $input-btn-focus-width: 0;
