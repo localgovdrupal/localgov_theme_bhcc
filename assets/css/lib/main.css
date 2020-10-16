@@ -15698,4 +15698,32 @@ svg + h6 {
   border-color: #008920;
 }
 
+.node--localgov_campaigns_overview .campaign-banner,
+.node--localgov_campaigns_page .campaign-banner {
+  height: 300px;
+  height: 18.75rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+@media only screen and (max-width: 767px) {
+  .campaign-banner {
+    height: 330px;
+    height: 20.625rem;
+  }
+}
+@media only screen and (max-width: 539px) {
+  .campaign-banner {
+    height: 200px;
+    height: 12.5rem;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
