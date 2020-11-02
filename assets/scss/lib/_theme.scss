@@ -49,3 +49,32 @@ svg {
 .servicehub--contact .contact-container {
   border-color: $color-success;
 }
+
+// Custom campaigns banner.
+.node--localgov_campaigns_overview,
+.node--localgov_campaigns_page {
+  .campaign-banner {
+    @include rem(height, 300);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .campaign-banner {
+    @include rem(height, 330);
+  }
+}
+
+@media only screen and (max-width: 539px) {
+  .campaign-banner {
+    @include rem(height, 200);
+  }
+}
