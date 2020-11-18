@@ -1,0 +1,79 @@
+/* Imports all styles needed to be included within the site's CK editor instances. */
+/* BHCC colours */
+.navbar-brand img {
+  max-height: 76px;
+}
+
+main h1 a,
+main h2 a,
+main h3 a,
+main h4 a,
+main h5 a,
+main h6 a {
+  color: #0059A4;
+  text-decoration: underline;
+}
+main h1 a:visited,
+main h2 a:visited,
+main h3 a:visited,
+main h4 a:visited,
+main h5 a:visited,
+main h6 a:visited {
+  color: #0059A4;
+}
+main h1 a:visited:hover,
+main h2 a:visited:hover,
+main h3 a:visited:hover,
+main h4 a:visited:hover,
+main h5 a:visited:hover,
+main h6 a:visited:hover {
+  color: #0059A4;
+}
+
+svg + h1,
+svg + h2,
+svg + h3,
+svg + h4,
+svg + h5,
+svg + h6 {
+  display: inline-block;
+  width: auto;
+}
+
+.servicehub--update {
+  background-color: #f0f5fa;
+}
+
+.servicehub--contact .contact-container {
+  border-color: #008920;
+}
+
+.node--localgov_campaigns_overview .campaign-banner,
+.node--localgov_campaigns_page .campaign-banner {
+  height: 300px;
+  height: 18.75rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+@media only screen and (max-width: 767px) {
+  .campaign-banner {
+    height: 330px;
+    height: 20.625rem;
+  }
+}
+@media only screen and (max-width: 539px) {
+  .campaign-banner {
+    height: 200px;
+    height: 12.5rem;
+  }
+}
+
+/*# sourceMappingURL=ck_style.css.map */
